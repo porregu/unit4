@@ -3,4 +3,6 @@ def number():
     B = (float(input("what is your second number")))
     if  (A%B==0):
         print("is divisible ")
+    else:
+        print("is not divisible ")
 number()
